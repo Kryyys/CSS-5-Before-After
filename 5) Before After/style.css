@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+/**Premier Rendu**/
+
+.first::after {
+    content: "#";
+}
+
+/**Deuxième rendu**/
+.second::after {
+    content: "♥";
+}
+
+/**Troisième rendu **/
+.third::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(Image/arrow.gif) no-repeat;
+    background-size: 100%;
+
+}
+
+.third::after {
+    content: "♥";
+}
